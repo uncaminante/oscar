@@ -16,7 +16,7 @@ body{
     margin: 1rem 5rem;
 }
 .header__imagen{
-    width: 100%;
+    max-width: 10rem;
 
 }
 .header__title{
