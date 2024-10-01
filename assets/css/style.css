@@ -63,13 +63,16 @@ body {
 }
 
 .menu__item {
-  text-decoration: none;
   list-style: none;
   font-size: 2rem;
   padding: 0.5rem;
   font-weight: bold;
 }
-.menu__item:hover {
+.menu__item-link {
+  text-decoration: none;
+  color: var(--color-black);
+}
+.menu__item-link:hover {
   color: var(--color-semiBlue);
   text-shadow: 5 5 0 black;
   cursor: pointer;
