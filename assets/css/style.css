@@ -19,8 +19,9 @@ body {
 
 /* Header */
 /* Menu */
+/* Footer */
 
-/* HEADER */
+/***************************************** HEADER */
 
 .header {
   display: flex;
@@ -49,7 +50,7 @@ body {
   font-size: 1.5rem;
 }
 
-/* MENU */
+/************************************************** MENU */
 .menu {
   background-color: var(--color-grey);
   height: 4rem;
@@ -72,4 +73,18 @@ body {
   color: var(--color-semiBlue);
   text-shadow: 5 5 0 black;
   cursor: pointer;
+}
+
+/************************************************** FOOTER */
+.footer {
+  position: absolute;
+  width: 100%;
+  line-height: 3rem;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-grey);
+}
+.footer__text {
+  font-size: 1.1rem;
+  text-align: center;
 }
