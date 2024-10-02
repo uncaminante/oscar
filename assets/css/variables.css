@@ -1,0 +1,9 @@
+:root {
+  --color-black: rgb(50, 50, 50);
+  --color-grey: rgb(217, 217, 217);
+  --color-blue-Soft: rgba(200, 200, 240, 0.5);
+  --color-semiBlue: #7891c6;
+  --font-400: 400;
+  --font-500: 500;
+  --font-700: 700;
+}
