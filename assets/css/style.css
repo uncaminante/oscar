@@ -73,17 +73,19 @@ body {
   cursor: pointer;
   letter-spacing: 3px;
 }
-.menu__item-link:hover .items__html {
-  top: 0;
-  left: 0;
-}
 
 .items__html {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
   padding-top: 10px;
   list-style: none;
   text-decoration: none;
 }
+
 .html__item-link {
+  display: block;
   text-decoration: none;
   padding: 15px;
   color: rgb(103, 103, 103);
@@ -95,6 +97,9 @@ body {
   text-decoration: underline var(--color-semiBlue);
   background-color: var(--color-blue-Soft);
   color: var(--color-black);
+}
+.menu__item-link:hover .items__html {
+  display: block;
 }
 
 /************************************************** FOOTER */
